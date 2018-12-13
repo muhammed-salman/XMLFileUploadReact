@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicles>
+  <vehicle>
+    <id>vehicle 8</id>
+    <frame>
+      <material>plastic</material>
+    </frame>
+    <wheels>
+      <wheel>
+        <position>rear</position>
+        <material>plastic</material>
+      </wheel>
+      <wheel>
+        <position>front</position>
+        <material>plastic</material>
+      </wheel>
+      <wheel>
+        <position>front</position>
+        <material>plastic</material>
+      </wheel>
+    </wheels>
+    <powertrain>human</powertrain>
+  </vehicle>
+  <vehicle>
+    <id>vehicle 9</id>
+    <frame>
+      <material>metal</material>
+    </frame>
+    <wheels>
+      <wheel>
+        <position>rear</position>
+        <material>metal</material>
+      </wheel>
+      <wheel>
+        <position>front</position>
+        <material>metal</material>
+      </wheel>
+    </wheels>
+    <powertrain>internal combustion</powertrain>
+  </vehicle>
+  <vehicle>
+    <id>vehicle 10</id>
+    <frame>
+      <material>plastic</material>
+    </frame>
+    <wheels>
+      <wheel>
+        <position>front</position>
+        <material>plastic</material>
+      </wheel>
+    </wheels>
+    <powertrain>bernoulli</powertrain>
+  </vehicle>
+  <vehicle>
+    <id>vehicle 11</id>
+    <frame>
+      <material>metal</material>
+    </frame>
+    <wheels>
+      <wheel>
+        <position>rear</position>
+        <material>metal</material>
+      </wheel>
+      <wheel>
+        <position>right rear</position>
+        <material>metal</material>
+      </wheel>
+      <wheel>
+        <position>front</position>
+        <material>metal</material>
+      </wheel>
+      <wheel>
+        <position>right front</position>
+        <material>metal</material>
+      </wheel>
+    </wheels>
+    <powertrain>internal combustion</powertrain>
+  </vehicle>
+</vehicles>

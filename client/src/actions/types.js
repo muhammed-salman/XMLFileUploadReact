@@ -1,0 +1,10 @@
+export const FILE_UPLOAD = 'file_upload';
+export const FILE_UPLOAD_ERROR = 'file_upload_error';
+export const FILE_VIEW = 'file_view';
+export const FILE_VIEW_ERROR = 'file_view_error';
+export const SHOW_REPORT = 'show_report';
+export const LIST_FILES = 'list_files';
+export const LIST_FILES_ERROR = 'list_files_error';
+export const PARSE_ERROR = 'parse_error';
+export const FILE_NOT_FOUND = 'file_not_found';
+export const ERROR = 'error';
