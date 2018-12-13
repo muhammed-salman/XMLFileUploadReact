@@ -11,7 +11,6 @@ const vehicleSchema = new Schema({
       position: String,
       material: String
     }]}
-    // type: String
   }],
   xmlFileString: String,
   fileAttr: Object,

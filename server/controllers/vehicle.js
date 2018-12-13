@@ -34,13 +34,7 @@ exports.saveVehicleInfo = function(req, res, next) {
      return res.status(422).send({ error: 'You must provide the required data to be uploaded'});
    }
    const hash = md5(xmlFileString);
-   // Vehicle
-   //   .find({hash})
-   //   .exec((err,data) => {
-   //     if(err)
-   //       return next(err);
-   //      return res.status(200).send(data);
-   //     });
+
   (new Vehicle({hash, vehicles, timeStamp, xmlFileString, fileAttr})).save((err,vehicles)=> {
       if(err){
         console.log("Cannot Save an error occured",err);

@@ -3,7 +3,7 @@ import _ from 'lodash';
 import { FILE_UPLOAD, FILE_VIEW, FILE_VIEW_ERROR, SHOW_REPORT, LIST_FILES, PARSE_ERROR, FILE_NOT_FOUND, ERROR } from './types';
 
 export const uploadFile = (jsonObj, xmlFileString, fileAttr) => async dispatch => {
-  console.log('uploadFile',xmlFileString,fileAttr);
+  // console.log('uploadFile',xmlFileString,fileAttr);
   const vehicles = jsonObj.vehicles.vehicle;
   const timeStamp = (new Date()).toString();
 

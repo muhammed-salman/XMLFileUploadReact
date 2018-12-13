@@ -55,7 +55,7 @@ class App extends Component {
         <div>
           <form method="post" onSubmit={this.onSubmit} encType="multipart/form-data">
             <input type="file" id="file" name="file" />
-            <button type="submit">Submit</button>
+            <button type="submit" className="btn btn-primary">Submit</button>
           </form>
           <ReportTable justUploaded={true} error={this.props.currentFile.errorMessage}/>
         </div>
